@@ -5,4 +5,5 @@ HTML-Textbox Library für Code darzustellen.
 Die Verwendung und ein Beispiel ist in der Datei "sample.html"
 
 ## Lizenzhinweise
-Die Library basiert auf dem Script PRISM (http://prismjs.com/) und wurde um die Sprache für Oracle SQL erweitert.
+Die Library basiert auf dem Script PRISM (http://prismjs.com/), es gelten dessen Lizenzbedingungen.
+Das Script PRISM wurde in dieser Library um die Sprache für Oracle SQL erweitert.
