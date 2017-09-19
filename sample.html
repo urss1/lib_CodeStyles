@@ -1,0 +1,149 @@
+<!doctype html>
+<!--
+* @package: lib_CodeStyles
+* @description:  Style Library for PRE- and CODE-Tag in HTML
+* @copyright: (C) 2017 by sumali - Urs Sommerhalder. All rights reserved.
+* @version: Version 1.0.2 - 20.08.2017
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Samples - lib_FormsAndButtons</title>
+<link href="sample.css" rel="stylesheet" type="text/css">
+<link href="prism.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="prism.js"></script>
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container">
+<div class="inner-container">
+	<header class="header">
+		<h1>lib_CodeStyles (Version 1.0.2) // Samples </h1>
+	</header>
+
+	<div class="content">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr class="table_head">
+<td width="48%">Sample (CODE):</td>
+<td width="4%">&nbsp;</td>
+<td width="48%">PREVIEW:</td>
+</tr>
+<tr>
+<td><h3>PRE-Tag im Artikel:</h3>
+<pre>&lt;div class=&quot;article&quot;&gt;
+ &lt;pre&gt;
+  SELECT * FROM dual;
+ &lt;/pre&gt;
+&lt;/div&gt;
+</pre></td>
+<td>&nbsp;</td>
+<td>
+<div class="article">
+	<pre>SELECT * FROM dual;</pre>
+</div>
+</td>
+</tr>
+<tr>
+<td><h3>CODE-Tag im Artikel:</h3>
+<pre>&lt;div class=&quot;article&quot;&gt;
+ &lt;code&gt;
+  SELECT * FROM dual;
+ &lt;/code&gt;
+&lt;/div&gt;
+</pre>
+</td>
+<td>&nbsp;</td>
+<td>
+<div class="article">
+	<code>SELECT * FROM dual;</code>
+</div>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><h3>Oracle CODE-Tag im Artikel:</h3>
+<pre>&lt;div class=&quot;article&quot;&gt;
+ &lt;code class=&quot;language-orasql&quot;&gt;
+  SELECT * FROM dual;
+ &lt;/code&gt;
+&lt;/div&gt;
+</pre></td>
+<td>&nbsp;</td>
+<td><div class="article">
+	<code class="language-orasql">SELECT * FROM dual;</code> </div></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><h3>Oracle SQL-Code: (PRE- und CODE-Tag)</h3>
+<p>Mit diesem Code wird automatisch das Kopieren in die Zwischenablage ermöglicht.</p>
+<pre>&lt;pre&gt;
+ &lt;code class=&quot;language-orasql&quot;&gt;
+  -- Beispiel SQL
+  SELECT
+   NVL(fid, '0'),
+   fid AS ident,
+   name_number name
+  FROM
+   line l
+   JOIN pipe p ON l.fid_attr = p.fid
+  WHERE
+   ROWNUM &lt; 10;
+ &lt;/code&gt;
+&lt;/pre&gt;
+</pre>
+</td>
+<td>&nbsp;</td>
+<td>
+<pre>
+<code class="language-orasql">
+-- Beispiel SQL
+SELECT
+	NVL(fid, '0'),
+	fid AS ident,
+	name_number name
+FROM
+	line l
+	JOIN pipe p ON l.fid_attr = p.fid
+WHERE
+	ROWNUM &lt; 10;
+</code>
+<pre>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+	</div>
+
+	<div class="footer"> 
+		<span class="left"> &copy; <a href="https://www.sumali.ch" target="_blank">sumali - Urs Sommerhalder</a></span>
+		<div class="clearer"></div>
+	</div>
+</div> <!-- inner-container -->
+</div> <!-- container -->
+</body>
+</html>
